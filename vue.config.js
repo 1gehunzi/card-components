@@ -1,7 +1,6 @@
 const externals = {
-  vue: "root window.__RUNTIME_EXPORTS__.Vue",
-  //   "lodash": "root window.__RUNTIME_EXPORTS__.lodash",
-  //   dayjs: "root window.__RUNTIME_EXPORTS__.Dayjs",
+  // vue: "root window.__RUNTIME_EXPORTS__.Vue",
+  dayjs: "root window.__RUNTIME_EXPORTS__.dayjs",
 };
 
 /**
