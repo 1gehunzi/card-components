@@ -10,8 +10,8 @@ module.exports = {
   chainWebpack: (config) => {
     console.log("config------", process.env.NODE_ENV);
     // TODO: 区分本地开发还是远端开发  需要改下
-    // if (process.env.NODE_ENV === "production") {
-    config.externals(externals);
-    // }
+    if (process.env.NODE_ENV === "production") {
+      config.externals(externals);
+    }
   },
 };
